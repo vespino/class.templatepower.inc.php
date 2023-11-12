@@ -117,7 +117,7 @@ class TemplatePowerParser
         $this->tpl_count = 0;
         $this->ignore_stack = Array (false);
 		*/
-		 self::__construct($tpl_file, $$type);
+		 self::__construct($tpl_file, $type);
     }
 
     /**
